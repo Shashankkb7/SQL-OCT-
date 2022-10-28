@@ -1,0 +1,14 @@
+CREATE DATABASE dEVELOPER_DETAILS;
+USE dEVELOPER_DETAILS;
+CREATE TABLE dEVELOPER_DETAILS(SLNO int,DEVELOPER_name varchar(50),DEVELOPER_PHONE_NUM bigint, DEVELOPER_ID_NUM varchar(30),DEVELOPER_COMPANY_NAME varchar(20),DEVELOPER_ROLE varchar(25),DEVELOPER_LOCATION varchar(20),DEVELOPER_AADHARNUMBER bigint,DEVELOPER_DEGREE varchar(20),DEVELOPER date,DEVELOPER timestamp,DEVELOPER_BY varchar(50) default'X-workz');
+INSERT INTO dEVELOPER_DETAILS VALUE(1,"SHASHANK",9108120838,'Shashank1234','Wipro','Software developer','Bangalore',45631234564,'B.E',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(2,"Abhishek",9980360358,'abhishek0703','Capgemini','Software developer','Chennai',445522117788,'MCA',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(3,"Nataraj",9686021910,'nataraj4567','Infosys','Web developer','Hyderabad',741236589012,'BCA',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(4,"Sanjay",7760968583,'sanjay7854','IBM','Software developer','Delhi',852031479684,'MBA',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(5,"Sharath",8431675593,'sharath8520','Accenture','Web developer','Mumbai',785412563245,'Msc',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(6,"Vikki",9845307983,'vikki2021','Google','Software developer','Ahmedabad',745632145604,'B.E',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(7,"Vijay",9148352351,'vijay9741','Flipkart','Web developer','Kerala',632105478984,'MCA',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(8,"Arun",9620753670,'arun0703','Amazon','Full stack developer','Andhra Pradesh',741254789630,'MCA',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(9,"Akhil",9945682265,'akhil8197','TCS','Software developer','Tamil Nadu',852147963201,'B.E',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(10,"Ganesh",9446454944,'ganesh4561','Apple','Web developer','Bangalore',445852147532,'B.E',current_date(),current_time(),now());
+SELECT * FROM dEVELOPER_DETAILS;
